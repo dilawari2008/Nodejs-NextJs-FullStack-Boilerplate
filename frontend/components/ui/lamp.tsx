@@ -19,7 +19,7 @@ export function LampDemo() {
       >
         <div className="flex flex-col w-full gap-4 justify-center items-center">
           <div className="flex flex-col gap-4">
-            Berry <br />{" "}
+            Product <br />{" "}
             <div className="text-3xl text-zinc-400">
               Scale Customer Success and Onboarding with AI
             </div>

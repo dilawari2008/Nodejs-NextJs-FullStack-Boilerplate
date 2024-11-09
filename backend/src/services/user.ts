@@ -46,8 +46,8 @@ const generateCSV = async () => {
   const clusterCount = new Map();
   const sortedEntries: any[] = [];
 
-  const readStream = fs.createReadStream('/Users/vagishdilawari/Downloads/output_berry.csv');
-  const writeStream = fs.createWriteStream('/Users/vagishdilawari/Downloads/output_berry1.csv');
+  const readStream = fs.createReadStream('/Users/vagishdilawari/Downloads/output.csv');
+  const writeStream = fs.createWriteStream('/Users/vagishdilawari/Downloads/output_1.csv');
 
   readStream
     .pipe(csv())
